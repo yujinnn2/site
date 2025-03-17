@@ -1,0 +1,527 @@
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 900;
+    src: url(pre/Pretendard-Black.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 800;
+    src: url(pre/Pretendard-ExtraBold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 700;
+    src: url(pre/Pretendard-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 600;
+    src: url(pre/Pretendard-SemiBold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    src: url(pre/Pretendard-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 400;
+    src: url(pre/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 300;
+    src: url(pre/Pretendard-Light.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 200;
+    src: url(pre/Pretendard-ExtraLight.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 100;
+    src: url(pre/Pretendard-Thin.woff) format('woff');
+}
+
+body{
+
+    font-family: "pretendard";
+}
+
+/* header */
+.nav{
+    display: flex;
+    width: 1752px;
+    margin: 0 auto;
+}
+
+.gnb>ul{
+    display: flex;
+}
+
+.nav-icon ul{
+    display: felx;
+}
+
+.logo{
+    font-size: 24px;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    font-weight: 600;  
+}
+
+.gnb a{
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.logo_item{
+    margin-right: 164px;
+}
+
+.gnb li{
+    margin-right: 48px;
+}
+
+.gnb li:last-child{
+    margin-right: 0;
+}
+
+.nav-icon{
+    margin-left: 164px;
+}
+
+header{
+    padding: 23px 0;
+}
+
+.nav-icon li:first-child{
+    margin-right: 11px;
+}
+
+.content_01{
+    width: 100%;
+    height: 611px;
+    background: url('../images/background.png');
+    background-repeat: no-repeat;
+    /*bg에 사진 넣을거면 no-repaet 필수임*/
+    background-size: cover; /* 숫자 두개(50% 50%) 쓰면 가로 세로*/
+    /* cover가 가운데를 기준으로 이미지 맞춰줌*/
+    background-position: bottom center;
+    /*이미지 9분할 기준 top left / top center / top right*/ 
+}
+
+.slider{
+    margin-left: 205px;
+}
+.slider h2{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.slider p{
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 88px;
+}
+
+.slider button{
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    padding: 14px 16px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    /*column 쓰는 이유 > 세로로 정렬하기 위해. 
+    flex는 써야하지만 clum 안쓰면 가로로 정렬됨.*/ 
+    align-items:flex-start;
+    /* flex-start 사용ㄱㄱ 그냥 start말고*/
+    height: 611px;
+    /*높이 값 안 넣으면 작동 안함.ㅋ*/
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.sec02{
+    width: 100%;
+    overflow-x: hidden;
+    padding: 100px 0;
+    
+}
+/*overflow사용할 때 section/부모에 width지정 해야함!!!!!!!!!!!!!!!!!!!! 
+100%나 1903px이나 둘다 ㄱㅊㄱㅊ*/
+
+.swiper{
+    width: 100%;
+    height: 500px;
+    background: #BAB8B8;
+}
+
+.sec02_title{
+    text-align: center;
+    margin-bottom: 165px;
+}
+
+div>h2{
+font-size: 32px;
+line-height: 140%;
+letter-spacing: -0.025em;
+margin-bottom: 30px;
+}
+
+.sec02>p{
+font-size: 16px;
+line-height: 140%;
+letter-spacing: -0.025em;
+font-weight: 500;
+color: #767676;
+}
+
+.cont{
+    width: 352px;
+    height: 500px;
+    background: #767676;
+    margin: 0 10px;
+}
+
+.bg-1{
+    background: url('../images/bimg1.png');
+}
+
+.bg-2{
+    background: url('../images/bimg2.png');
+}
+.bg-3{
+    background: url('../images/bimg3.png');
+}
+.bg-4{
+    background: url('../images/bimg4.png');
+}
+.bg-5{
+    background: url('../images/bimg5.png');
+}
+.bg-6{
+    background: url('../images/bimg6.png');
+}
+
+.text>h4{
+font-size: 32px;
+line-height: 140%;
+letter-spacing: -0.025em;
+font-weight: 600;
+margin-bottom: 25px;
+}
+
+.text>p{
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #767676;
+}
+
+.img-content{
+    float: left;
+}
+.clearfix{
+    clear: both;
+
+}
+.container{
+    width: 1321px;
+    /*background-color: aqua;*/
+    margin: 0 auto;
+}
+.img{
+    background: #BAB8B8;
+    width: 432px;
+    height: 280px;
+    margin-bottom: 21px;
+    margin-right:8px;
+    
+}
+
+.sec03>h2{
+font-size: 32px;
+line-height: 140%;
+letter-spacing: -0.025em;
+font-weight: 600;
+margin-bottom: 7px;
+margin-top: 100px;
+text-align: center;
+}
+
+.sec03>p{
+font-size: 16px;
+line-height: 140%;
+letter-spacing: -0.025em;
+font-weight: 500;
+color: #767676;
+text-align: center;
+margin-bottom: 92px;
+}
+
+.swiper{
+    width: 100%;
+    height: 500px;
+}
+/*header{
+    position: sticky;
+    top:0;
+    background: #fff;
+}
+*/
+
+
+.sec04>h2{
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.sec04>p{
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+    color: #767676;
+    margin-bottom: 92px;
+    text-align: center;
+    }
+
+.bbox{
+    width: 1321px;
+    height: 450px;
+    background: #BAB8B8;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background: url('../images/fluttuer.png');
+}
+
+.l-img{
+    width:650px;
+    height: 450px;
+    background-color: aqua;
+}
+
+/* common */
+
+.d-flex{
+    display:flex;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.font-16{
+    font-size: 16px;
+    color: #767676;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+.font-36{
+    font-size: 36px;
+}
+
+.w-1316{
+    width: 1316px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+
+.w-650{
+    width: 650px;
+}
+
+.w-550{
+    width: 550px;
+}
+.m-l-20{
+    margin-left: 20px;
+}
+.m-b-25{
+    margin-bottom: 25px;
+}
+.m-b-80{
+    margin-bottom: 80px;
+}
+.m-b-82{
+    margin-bottom: 82px;
+}
+.m-b-10{
+    margin-bottom: 10px;
+}
+
+.d-flex-s{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.font-100{
+    font-weight: 100;
+}
+.font-200{
+    font-weight: 200;
+}
+.font-300{
+    font-weight: 300;
+}
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-600{
+    font-weight: 600;
+}
+img{
+    width: 100%;
+}
+.sec08{
+    width: 1903px;
+    overflow-x: hidden;
+}
+.over-f-h{
+    width: 3700px;
+    margin-left: -150px;
+}
+.box{
+    width: 352px;
+    height: 250px;
+    background: #767676;
+    margin: 0 10px;
+}
+
+.swiper__text{
+    margin-top: 10px;
+    text-align: center;
+    color: #767676;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+}
+
+.swiper__img{
+    margin-right: 18px;
+    width: 178px;
+    height: 200px;
+}
+.d-float .box{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.bg1{
+    background: url('../images/21.png');
+}
+.bg2{
+    background: url('../images/image22.png');
+}
+.bg3{
+    background: url('../images/image23.png');
+}
+.bg4{
+    background: url('../images/image24.png');
+}
+.bg5{
+    background: url('../images/image25.png');
+}
+.bg6{
+    background: url('../images/image26.png');
+}
+.bg7{
+    background: url('../images/image26.png');
+}
+.padding-t-100{
+    padding: 100px 0;
+}
+.aside-content{
+    padding: 20px 0 60px 0;
+    /*border-top: 1px solid #ccc;*/
+    /*box-shadow: 0px -1px 0px #ccc;*/
+    /*우측 / 하단 / 블러 */
+    box-shadow: inset 0px 3px #ccc;
+    /*box-shadow:  3px 3px red, -1em 0 0.4em olive, -10px -10px black;
+    /*박스섀도우는 중첩 가능 drop shadow처럼 */ 
+}
+.left-title{
+    width: 328px;
+}
+.right-title{
+    width: 458px;
+}
+
+.flat-6__content{
+    width: 648px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.flat-6__content p{
+    margin: 25px 0 20px 0;
+}
+
+.bg-flat-1{
+    background: url('../images/image12.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-flat-2{
+    background: url('../images/image25.png') no-repeat;
+    background-size: cover;
+}
+
+.flat-6__content-a{
+    width: 326px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bg-flat-3{
+    background: url('../images/image23.png') no-repeat;
+    background-size: cover;
+}
+
+.content__b{
+    display: flex;
+    width: 326px;
+    height: 206px;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
